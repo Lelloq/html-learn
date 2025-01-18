@@ -4,11 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>le website</title>
+    <title id="title">le website</title>
 </head>
 
 <body>
-    
+    <form action="/action_page.php" method="post">
+        <div>
+            <label for="sample">sample form: </label>
+            <input type="text" placeholder="type something" required>
+        </div>
+
+        <div>
+            <label for="sample pass">sample pass: </label>
+            <input type="password" placeholder="type something" required>
+        </div>
+
+        <div>
+            <label for="sample date">sample date: </label>
+            <input type="date"required>
+        </div>
+
+        <div>
+            <label for="sample number">sample number: </label>
+            <input type="number" min="0" max="389290" placeholder="0" required>
+        </div>
+
+        <div>
+            <label for="radio">sample radio 1: </label>
+            <input type="radio" name="sample" value="a.">
+
+            <label for="radio">sample radio 2: </label>
+            <input type="radio" name="sample" value="b.">
+
+            <label for="radio">sample radio 3: </label>
+            <input type="radio" name="sample" value="c.">
+        </div>
+
+        <div>
+            <label for="dropdown">dropdown</label>
+            <select name="dropdown">
+                <option>a</option>
+                <option>b</option>
+                <option>c</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="sample number">sample checkbox: </label>
+            <input type="checkbox">
+        </div>
+
+        <div>
+            <input type="submit" >
+            <input type="reset" >
+        </div>
+    </form>
+
 </body>
 
 </html>
