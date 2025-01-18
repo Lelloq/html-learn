@@ -8,7 +8,25 @@
 </head>
 
 <body>
-    
+    <a href="https://osu.ppy.sh" target="_blank">
+        <button onclick="handleClick()" 
+        style="background-color: pink; 
+        color: white; 
+        border-radius: 5px; 
+        padding: 15px 32px; 
+        font-size: xx-large;">
+            click me
+    </button>
+    </a>
+
+    <p id="text">hello</p>
+
+    <script>
+        function handleClick(){
+            document.getElementById("text").innerHTML = "opened osu"
+            document.getElementById("text").innerHTML = "hello"
+        }
+    </script>
 </body>
 
 </html>
